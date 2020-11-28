@@ -183,10 +183,6 @@ public class Controller {
         char operation = 'Q';
         int operationAtIndex = 0;
 
-//        StringBuilder num1Builder = new StringBuilder();
-//        StringBuilder num2Builder = new StringBuilder();
-//        String num1 = null;
-//        String num2 = null;
 
         String[] numbers = new String[2];
         double result = 0;
@@ -220,16 +216,6 @@ public class Controller {
 
         }
 
-//        for (int i = 0; i < operationAtIndex; i++) {
-//            num1Builder.append(input.charAt(i));
-//        }
-//
-//        for (int i = operationAtIndex+1; i < input.length(); i++) {
-//            num2Builder.append(input.charAt(i));
-//        }
-//
-//        num1 = num1Builder.toString();
-//        num2 = num2Builder.toString();
 
 
         numbers = input.split(String.valueOf("\\" + operation));
